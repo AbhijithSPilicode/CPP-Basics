@@ -1,0 +1,15 @@
+//prefix and suffixing x++ ++x
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x=2,y=10;
+    cout<<x;   // x printing
+    x++;       // incrementing x
+    cout<<"  "<<x;//x++ added value printing
+    cout<<" "<<y; //print y
+    y=++x;        //prefixing y with x
+    cout<<"\n"<<x; //x after prefix
+    cout<<" "<<y; //y after prefix
+    return 0;
+}

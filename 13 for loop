@@ -1,0 +1,13 @@
+//for loop
+#include<iostream>
+using namespace std;
+int main()
+{
+    for(int var=1;var<=5;var++)
+    {
+        cout<<var<<endl;
+    }
+    
+    return 0;
+}
+

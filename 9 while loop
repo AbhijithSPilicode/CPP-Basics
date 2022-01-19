@@ -1,0 +1,14 @@
+//while loop
+#include<iostream>
+using namespace std;
+int main()
+{
+    int var=1;
+    while(var<=10)
+    {
+        cout<<"c++\n";
+        var++;
+    }
+    return 0;
+}
+

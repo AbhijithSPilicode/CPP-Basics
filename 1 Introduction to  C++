@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"welcome to C++"<<"\n this is another way\n" ; //<< make it into next line
+    cout<<"this is another stream";
+    return 0;
+}
+
+

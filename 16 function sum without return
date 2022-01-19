@@ -1,0 +1,15 @@
+//functions add
+#include<iostream>
+using namespace std;
+void add(int a,int b) ;//void is used as datatype since nothing is returning
+int main()
+{
+    int num1=12,num2=2;
+    add(num1,num2);
+    return 0;
+}
+
+void add(int a,int b)
+{
+    cout<<a+b<<endl;
+}

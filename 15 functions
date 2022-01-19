@@ -1,0 +1,14 @@
+//functions
+#include<iostream>
+using namespace std;
+void printsomething() ;//void is used as datatype since nothing is returning
+int main()
+{
+    printsomething();
+    return 0;
+}
+
+void printsomething()
+{
+    cout<<"welcome"<<endl;
+}

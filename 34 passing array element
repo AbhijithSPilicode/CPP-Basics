@@ -1,0 +1,19 @@
+//passing array elements
+#include<iostream>
+using namespace std;
+void printarr(int arr[],int a);
+int main()
+{
+    int item[5]={12,23,34,45,56};
+    printarr(item,5);
+    return 0;
+}
+
+void printarr(int arr[],int a)
+{
+    for(int i=0;i<a;i++)
+    {
+        cout<<arr[i]<<endl;
+    }
+}
+

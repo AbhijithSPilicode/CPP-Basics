@@ -1,0 +1,14 @@
+//Pointer
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x=5;
+    int *ptr=&x;
+    x=x+4;         //5+4=9
+    x=*ptr+10;     //dereferencing 9+10=19
+    *ptr=*ptr+5;   //19+5=24;
+    
+    cout<<x<<endl;
+    return 0;
+}

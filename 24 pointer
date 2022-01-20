@@ -1,0 +1,13 @@
+//Pointer
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=12;
+    int *ptr;
+    ptr=&a;
+    cout<<&a<<endl;
+    cout<<ptr<<endl; //pointer gives address where a stored
+    cout<<*ptr<<endl; // it gives data stored inside the address
+    return 0;
+}

@@ -1,0 +1,22 @@
+//pass by reference
+#include<iostream>
+using namespace std;
+
+void test(int *x);
+
+int main()
+{
+    int var=12;
+    //int *ptr=&var;
+    cout<<"the value of x before calling the function: "<<var<<endl;
+    test(&var);
+    cout<<"the value of x after calling the function: "<<var<<endl;
+    return 0;
+}
+
+void test(int *x)
+{
+    *x=100;
+    cout<<"the value of x inside the function: "<<*x<<endl;
+}
+

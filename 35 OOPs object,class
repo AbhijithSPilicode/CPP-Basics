@@ -1,0 +1,32 @@
+  // OOPS CONCEPTS
+#include<iostream>
+using namespace std;
+
+class Student  //class
+{
+    public:  //encapsulation-access specified,it can be public,private,protected
+        string name;  //Attributes = Characteristics of object
+        int age;
+        void print()
+        {
+          cout<<"NAME: "<<name<<endl;   //method     
+            
+        }
+};
+
+int main()
+{
+    //create object which have the type of object
+    Student s1,s2; //s1 is object 1 and s2 is object2 here 
+    s1.name="Raju"; 
+    s1.age=12;
+    s2.name="Rajesh";
+    
+    cout<<s1.name<<endl;
+    cout<<s2.name<<endl;
+    
+    s2.print();
+    
+    return 0;
+}
+

@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+void test(int a,int b=12);
+int main()
+{
+    test(100,200);
+    return 0;
+}
+
+void test(int a,int b)
+{
+    cout<<a<<"\n"<<b<<endl;
+}

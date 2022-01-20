@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+void test(int a);
+void test(int a,int b);
+int main()
+{
+    test(12);
+    test(100,200);
+    return 0;
+}
+
+void test(int a)
+{
+    cout<<a<<endl;
+}
+void test(int a,int b)
+{
+    cout<<a+b<<endl;
+}
